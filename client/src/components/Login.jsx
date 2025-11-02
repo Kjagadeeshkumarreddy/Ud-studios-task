@@ -15,16 +15,16 @@ function Login() {
         <div className='border-2 p-[0.5rem] rounded-xl m-[1rem] '>
             Login
         </div>
-        <div className=' border-2 p-[1rem] flex rounded-xl'>
-            <div className='border-2 m-[0.5rem] p-[0.2rem]' onClick={()=>{
+        <div className=' border-2 p-[1rem] flex rounded-xl flex-col'>
+            <div className='border-2 m-[0.5rem] p-[0.2rem] p-[0.4rem] rounded-xl' onClick={()=>{
               googleLogin()
-            }}><i className="fa-brands fa-google"></i></div>
-            <div className='border-2 m-[0.5rem] p-[0.2rem]'
+            }}>Login with <i className="fa-brands fa-google"></i></div>
+            <div className='border-2 m-[0.5rem] p-[0.2rem] p-[0.4rem] rounded-xl'
             onClick={()=>{
               facebookLogin()
             }}
-            ><i className="fa-brands fa-facebook"></i></div>
-            <div className='border-2 m-[0.5rem] p-[0.2rem]'><i className="fa-brands fa-github"
+            >Login with <i className="fa-brands fa-facebook"></i></div>
+            <div className='border-2 m-[0.5rem] p-[0.2rem] p-[0.4rem] rounded-xl'>Login with <i className="fa-brands fa-github"
             onClick={()=>{
               gitHubLogin()
             }}
